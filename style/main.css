@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html{
+    background-color:red;
+}
+ul{
+    width:100%;
+    background-color: black;
+    height:150px;
+    text-align: center;
+}
+ul li{
+    display:inline-block;
+    padding-top: 17.5px;
+}
+ul li a{
+    text-decoration: none;
+    background-color: blue;
+    padding: 15px;
+    margin-left: 5px;
+    color: aliceblue;
+    text-transform: uppercase;
+    border-radius: 100%;
+}
+header{
+    background-image: url(../image/spiderman1.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    padding-top: 15px;
+    color: black;
+}
+.text{
+    float: left;
+    width: 47%;
+    color: black;
+    font-family: cursive;
+    line-height: 30px;
+    font-size: larger;
+}
+.picture{
+    
+    width: 40%;
+    margin-top: 80px;
+}
+.rows{
+    margin: 2%;
+}
+.button{
+    height: 10
+    5px;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 10px;
+    background-color: blue;
+    color: aqua;
+    text-shadow: 2px 3px black;
+}
+.button:hover{
+    box-shadow: 2px 3px 5px black;
+}
+.image{
+    height: 800px;
+    width: 30%;
+    float: left;
+    margin-left: 300px;
+    border-radius: 20px 30px 50px;
+    box-shadow: 2px 3px 5px;
+}
+.img2{
+    height: 220px;
+    width: 30%;
+    padding: 10px;  
+}
+.card{
+    width: 20%;
+    margin: 2%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0  rgba(0, 17, 225);
+    float: left;
+}
+.staff{
+    padding: 0%;
+    clear: both;
+    width: 100%;
+    height: 800px;
+    margin: 2%;
+}
+.content{
+    padding: 0%;
+    float: left;
+    width: 20%;
+    margin-left: 0%;
+    padding-top: 5%;
+}
+.img2{
+    height: 300px;
+    width: 140%;
+    border-radius: 30px 30px 50px;
+    padding: 3%;
+    margin: 3%;
+    box-shadow: 2px 3px 5px black;
+}
+.img2:hover{
+    opacity: 0.4;
+}
+.text2{
+    text-decoration: black;
+    height: 100px;
+    text-size-adjust: larger;
+}
+.header{
+    padding-bottom: 5%;
+}
+.video{
+    align-self: center;
+    border-radius: 20px 20px 30px;
+    margin-left: 30%;
+}
+.video:hover{
+    box-shadow: 2px 3px 15px black;
+    opacity: 100;
+}
+footer{
+    background-color: rgb(43, 43, 43);
+    height: 100px;
+    color: white;
+    width: 100%;
+    padding-bottom: 15%;
+}
+.logo{
+    height: 100px;
+}
+.prt2{
+    text-transform: uppercase;
+    float: right;
+    border: 30%;
+    float: left;
+}
+.prt3{
+    float: right;
+}
